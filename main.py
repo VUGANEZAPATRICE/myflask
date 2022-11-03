@@ -17,7 +17,7 @@ def contact_page():
     return 'contact me at flask@gmail.com or 0784337888'
 
 @app.route('/date')
-def show_date():
+def show_date():#show date
     date = str(datetime.now())
     return f'Today is {date}'
 
